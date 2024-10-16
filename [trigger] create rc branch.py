@@ -23,7 +23,15 @@ def kör_git_kommando(kommando):
 
 
 print("Kör 'git status':")
-output = kör_git_kommando("git status")
+status = kör_git_kommando("git status")
+branch = kör_git_kommando("git branch Release Branch")
+git_add = kör_git_kommando("git add version")
+git_commit = kör_git_kommando("git commit all")
+push = kör_git_kommando("git push ")
+git_merge = kör_git_kommando("git merge felweinfrwiuf")
 
 
-print(output)
+print(status, branch, git_add, git_commit, git_merge)
+print(git_add)
+print(git_commit)
+print(git_merge)
