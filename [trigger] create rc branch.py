@@ -24,4 +24,6 @@ def kör_git_kommando(kommando):
 
 print("Kör 'git status':")
 output = kör_git_kommando("git status")
+
+
 print(output)
